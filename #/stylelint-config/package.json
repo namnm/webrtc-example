@@ -1,0 +1,13 @@
+{
+  "name": "@lib/stylelint-config",
+  "version": "0.0.0-locked",
+  "private": true,
+  "dependencies": {
+    "postcss": "8.4.32",
+    "postcss-scss": "4.0.9",
+    "stylelint": "15.11.0",
+    "stylelint-config-hudochenkov": "9.0.0",
+    "stylelint-order": "6.0.3",
+    "ts-node": "10.9.1"
+  }
+}

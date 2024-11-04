@@ -1,0 +1,23 @@
+{
+  "name": "webrtc-example",
+  "version": "0.0.0-locked",
+  "private": true,
+  "scripts": {
+    "format": "stylelint --ignore-path=.gitignore --fix **/*.{css,scss} && eslint --ignore-path=.gitignore --ext=.js,.jsx,.ts,.tsx --fix . && prettier --log-level=error --write . && tsc"
+  },
+  "dependencies": {
+    "eslint": "8.55.0",
+    "prettier": "3.1.0",
+    "stylelint": "15.11.0",
+    "typescript": "5.3.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "caniuse-lite": "1.0.30001566"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "20.11.16"
+  },
+  "packageManager": "pnpm@9.0.6+sha512.f6d863130973207cb7a336d6b439a242a26ac8068077df530d6a86069419853dc1ffe64029ec594a9c505a3a410d19643c870aba6776330f5cfddcf10a9c1617"
+}

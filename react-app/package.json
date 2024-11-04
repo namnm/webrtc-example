@@ -1,0 +1,30 @@
+{
+  "name": "@webrtc-example/react-app",
+  "version": "0.0.0-locked",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "adapterjs": "0.15.5",
+    "mobx": "6.12.0",
+    "mobx-react-lite": "4.0.5",
+    "normalize.css": "8.0.1",
+    "pokemon": "2.3.6",
+    "react": "18.2.0",
+    "react-app-polyfill": "3.0.0",
+    "react-dom": "18.2.0",
+    "react-toastify": "9.1.3",
+    "socket.io-client": "4.7.2",
+    "webrtc-adapter": "8.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.42",
+    "@types/react-dom": "18.2.17",
+    "react-scripts": "5.0.1",
+    "sass": "1.69.5",
+    "sass-loader": "13.3.2"
+  },
+  "browserslist": "ie 10-11"
+}

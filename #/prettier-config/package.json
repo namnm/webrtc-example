@@ -1,0 +1,9 @@
+{
+  "name": "@lib/prettier-config",
+  "version": "0.0.0-locked",
+  "private": true,
+  "dependencies": {
+    "prettier": "3.1.0",
+    "ts-node": "10.9.1"
+  }
+}
